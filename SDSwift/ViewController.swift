@@ -53,6 +53,17 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 50
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        if indexPath.row == 1 {
+           let arrVC = SDArrayViewController()
+            self.navigationController?.pushViewController(arrVC, animated: true)
+        }else if indexPath.row == 2{
+            let strVC = SDStringViewController()
+            self.navigationController?.pushViewController(strVC, animated: true)
+        }
+    }
 
 }
 
