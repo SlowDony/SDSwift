@@ -16,6 +16,7 @@
 		EF0286721F4C74CA009B6228 /* SDSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0286711F4C74CA009B6228 /* SDSwiftUITests.swift */; };
 		EF0286801F4C77C2009B6228 /* SDArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02867F1F4C77C2009B6228 /* SDArrayViewController.swift */; };
 		EF0286821F4C77D1009B6228 /* SDStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0286811F4C77D1009B6228 /* SDStringViewController.swift */; };
+		EF30FF261F4DD540006D5D0D /* SDDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF30FF251F4DD540006D5D0D /* SDDictionaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EF0286731F4C74CA009B6228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF02867F1F4C77C2009B6228 /* SDArrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDArrayViewController.swift; sourceTree = "<group>"; };
 		EF0286811F4C77D1009B6228 /* SDStringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDStringViewController.swift; sourceTree = "<group>"; };
+		EF30FF251F4DD540006D5D0D /* SDDictionaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDDictionaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				EF0286531F4C74CA009B6228 /* ViewController.swift */,
 				EF02867F1F4C77C2009B6228 /* SDArrayViewController.swift */,
 				EF0286811F4C77D1009B6228 /* SDStringViewController.swift */,
+				EF30FF251F4DD540006D5D0D /* SDDictionaryViewController.swift */,
 				EF0286551F4C74CA009B6228 /* Main.storyboard */,
 				EF0286581F4C74CA009B6228 /* Assets.xcassets */,
 				EF02865A1F4C74CA009B6228 /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 				EF0286821F4C77D1009B6228 /* SDStringViewController.swift in Sources */,
 				EF0286801F4C77C2009B6228 /* SDArrayViewController.swift in Sources */,
 				EF0286541F4C74CA009B6228 /* ViewController.swift in Sources */,
+				EF30FF261F4DD540006D5D0D /* SDDictionaryViewController.swift in Sources */,
 				EF0286521F4C74CA009B6228 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +517,7 @@
 				EF0286781F4C74CA009B6228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF0286791F4C74CA009B6228 /* Build configuration list for PBXNativeTarget "SDSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				EF02867B1F4C74CA009B6228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF02867C1F4C74CA009B6228 /* Build configuration list for PBXNativeTarget "SDSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +535,7 @@
 				EF02867E1F4C74CA009B6228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
