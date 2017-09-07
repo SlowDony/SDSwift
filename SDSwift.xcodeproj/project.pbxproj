@@ -17,6 +17,8 @@
 		EF0286801F4C77C2009B6228 /* SDArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02867F1F4C77C2009B6228 /* SDArrayViewController.swift */; };
 		EF0286821F4C77D1009B6228 /* SDStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0286811F4C77D1009B6228 /* SDStringViewController.swift */; };
 		EF30FF261F4DD540006D5D0D /* SDDictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF30FF251F4DD540006D5D0D /* SDDictionaryViewController.swift */; };
+		EF34219C1F61496200CF3829 /* SDClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34219B1F61496200CF3829 /* SDClosureViewController.swift */; };
+		EF34219E1F6154B600CF3829 /* SDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34219D1F6154B600CF3829 /* SDBaseViewController.swift */; };
 		EF46D1A41F5316EE009BD036 /* SDFunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF46D1A31F5316EE009BD036 /* SDFunctionViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,8 @@
 		EF02867F1F4C77C2009B6228 /* SDArrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDArrayViewController.swift; sourceTree = "<group>"; };
 		EF0286811F4C77D1009B6228 /* SDStringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDStringViewController.swift; sourceTree = "<group>"; };
 		EF30FF251F4DD540006D5D0D /* SDDictionaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDDictionaryViewController.swift; sourceTree = "<group>"; };
+		EF34219B1F61496200CF3829 /* SDClosureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDClosureViewController.swift; sourceTree = "<group>"; };
+		EF34219D1F6154B600CF3829 /* SDBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDBaseViewController.swift; sourceTree = "<group>"; };
 		EF46D1A31F5316EE009BD036 /* SDFunctionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDFunctionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +115,8 @@
 				EF0286811F4C77D1009B6228 /* SDStringViewController.swift */,
 				EF30FF251F4DD540006D5D0D /* SDDictionaryViewController.swift */,
 				EF46D1A31F5316EE009BD036 /* SDFunctionViewController.swift */,
+				EF34219B1F61496200CF3829 /* SDClosureViewController.swift */,
+				EF34219D1F6154B600CF3829 /* SDBaseViewController.swift */,
 				EF0286551F4C74CA009B6228 /* Main.storyboard */,
 				EF0286581F4C74CA009B6228 /* Assets.xcassets */,
 				EF02865A1F4C74CA009B6228 /* LaunchScreen.storyboard */,
@@ -271,11 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF34219C1F61496200CF3829 /* SDClosureViewController.swift in Sources */,
 				EF0286821F4C77D1009B6228 /* SDStringViewController.swift in Sources */,
 				EF0286801F4C77C2009B6228 /* SDArrayViewController.swift in Sources */,
 				EF0286541F4C74CA009B6228 /* ViewController.swift in Sources */,
 				EF46D1A41F5316EE009BD036 /* SDFunctionViewController.swift in Sources */,
 				EF30FF261F4DD540006D5D0D /* SDDictionaryViewController.swift in Sources */,
+				EF34219E1F6154B600CF3829 /* SDBaseViewController.swift in Sources */,
 				EF0286521F4C74CA009B6228 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
