@@ -67,9 +67,22 @@ class SDClosureViewController: SDBaseViewController {
     
         print("b3:\(b3(3))")
 //        demo1()
-       demo2 { (result) in
-        print("获取的结果:\(result)")
+//       demo2 { (result) in
+//        print("获取的结果:\(result)")
+//        }
+        //'尾'随闭包
+        //如果函数的最后一个参数是闭包,函数参数可以提前结束,最后一个参数直接使用{}包装闭包的代码
+        //demo2(completion: <#T##([String]) -> ()#>)
+        
+        demo2() { (result) in
+            print("result:\(result)")
         }
+        
+        //按照函数本身编写的结果
+        demo2(completion: {(result) -> () in
+            print("result1:\(result)")
+        })
+        
     }
     
     /**
@@ -77,7 +90,7 @@ class SDClosureViewController: SDBaseViewController {
      swift 中闭包的应用场景和block完全一致
      */
     //GCD的应用
-    func demo2(completion: @escaping (_ result:String) ->()) ->()  {
+    func demo2(completion: @escaping (_ result:[String]) ->()) ->()  {
         //将任务添加到队列,指定执行任务的函数
         //翻译:"队列" 调度任务(block/闭包) 以同步/异步 的方法执行
         //async 异步
@@ -88,15 +101,15 @@ class SDClosureViewController: SDBaseViewController {
             //休眠
             Thread.sleep(forTimeInterval: 1.0)
             //获得结果
-//            let arr = ["今天","明天","后天"]
-            let str = "哈哈"
+            let arr = ["今天","明天","后天"]
+//            let str = "哈哈"
             
             //主队列回调
             DispatchQueue.main.async(execute: {
                 print("主线程更新\(Thread.current)")
                 //回调->执行闭包(通过参数传递)
                 //传递异步获取的结果
-                completion(str)
+                completion(arr)
             })
             
         }
