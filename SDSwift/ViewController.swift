@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSource{
 
-    let dataArr = ["基本语法","数组","字符串","集合","字典"]
+    let dataArr = ["基本语法","数组","字符串","集合","字典","闭包"]
     
 
     override func viewDidLoad() {
@@ -62,6 +62,9 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
         }else if indexPath.row == 2{
             let strVC = SDStringViewController()
             self.navigationController?.pushViewController(strVC, animated: true)
+        }else if indexPath.row == 5{
+            let closureVC = SDClosureViewController()
+            self.navigationController?.pushViewController(closureVC, animated: true)
         }
     }
 

@@ -45,6 +45,8 @@ class SDClosureViewController: SDBaseViewController {
          */
         //1.简单的闭包
         //() -> () 没有参数,没有返回值的函数
+        //如果没有参数,没有返回值,可以省略,连 in 都一起省略
+        //option + click 查看参数类型
         let b1  = {
             print("hello")
         }
